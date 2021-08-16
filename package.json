@@ -1,0 +1,19 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "Simple trivia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trivia",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "prompt": "^1.1.0"
+  }
+}
