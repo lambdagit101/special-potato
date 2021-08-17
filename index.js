@@ -48,7 +48,6 @@ async function init() {
         cat = '';
     }
     const niceurl = `https://opentdb.com/api.php?amount=${noquestions}&encode=url3986${cat}${questype}${diff}`;
-    console.log(niceurl)
     const { results } = await fetch(niceurl.replace(/\ /g, '')).then(response => response.json());
     trivia(results);
 }
